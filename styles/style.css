@@ -1,0 +1,20 @@
+@import "assets.css";
+
+/* Use e.g. background-color: var(--main-bg-color); */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* vary the weight when calling it */
+    font-weight: 200; /* options available 200;300;400;500;600;700 */
+}
