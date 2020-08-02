@@ -10,7 +10,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 10px; /* base font size for REM */
 }
 
 body {
