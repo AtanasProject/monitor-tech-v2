@@ -11,10 +11,66 @@
 
 html {
   font-size: 10px; /* base font size for REM */
+ 
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     /* vary the weight when calling it */
-    font-weight: 200; /* options available 200;300;400;500;600;700 */
+    /* font-weight: 200; options available 200;300;400;500;600;700 */
+    font-size: 1.6rem;
 }
+
+/*  ----------------------------------------  */
+/*  NAVIGATION BAR  */
+/*  ----------------------------------------  */
+
+
+.collapse ul .nav-item .nav-link,
+.collapse ul .nav-item .nav-link:visited,
+.collapse ul .nav-item .nav-link:active{
+  color: #787878;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 2rem;
+}
+
+
+.collapse ul .nav-item .nav-link:hover{
+  color: var(--color-primary-lighter);
+}
+
+.btn-login{
+  background-color: var(--color-primary-lighter);
+  color: white !important;
+  font-size: 1.6rem;
+  padding: .5rem 2rem !important;
+  border-radius: 0;
+}
+
+.btn-login:hover{
+  background-color: var(--color-primary);
+}
+
+
+/*  ----------------------------------------  */
+/*  CAROUSEL */
+/*  -----------------------------------------  */
+
+.image-carousel{
+  height: 520px;
+  object-fit: cover;
+  filter: brightness(40%);
+}
+
+.heading-carousel{
+  font-size: var(--h1-font-size);
+  text-transform: uppercase;
+}
+
+.subheading{
+  color: #37F9C9;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
