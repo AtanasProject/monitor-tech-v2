@@ -34,7 +34,7 @@
 
 <body>
 <!-- START nav -->
-  <nav id="secondNav" class="container-fluid navbar navbar-expand-lg py-3  navbar-light sticky-top" >
+  <nav id="secondNav" class="container-fluid navbar navbar-expand-lg py-3  navbar-dark bg-light sticky-top" >
     <div class="container-fluid px-2">
       <a class="nav-brand" href="#"><img src="./images/logo.svg" alt="logo" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -82,9 +82,9 @@
       <div class="carousel-item active">
         <img src="images/doctor.jpeg" class="image-carousel d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block ">
-          <h1 class="heading-carousel">First slide label</h1>
-          <p class="subheading">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <button class="btn btn-login">ENROLL NOW</button>
+          <h1 class="heading-carousel my-3">First slide label</h1>
+          <p class="subheading my-4">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button class="btn btn-login my-5">ENROLL NOW</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -120,11 +120,46 @@
 <!-- END hero -->
 
 <!-- START partners -->
-<section id="partners" class="container"></section>
+<section id="partners" class="container">
+  <ul class="d-flex flex-row justify-content-center align-items-center my-5 py-5 list-unstyled">
+    <li class="mx-5"><img src="images/partnersLogo/google.png" alt="google logo"></li>
+    <li class="mx-5"><img src="images/partnersLogo/facebook.png" alt="facebook logo"></li>
+    <li class="mx-5"><img src="images/partnersLogo/Amazon.png" alt="amazon logo"></li>
+    <li class="mx-5"><img src="images/partnersLogo/ibm.png" alt="IBM logo"></li>
+    <li class="mx-5"><img src="images/partnersLogo/apple.png" alt="apple logo"></li>
+  </ul>
+</section>
 <!-- END partners -->
 
 <!-- START features -->
-<section id="features" class="container"></section>
+<section id="features" class="container-fluid p-5">
+  <h2 class="text-center mb-5 heading-section">Why we should be your first choice?</h2>
+  <div class="d-flex feature-container">
+    <img class="mr-5" src="images/featuresImages/competence 1.png" alt="skills testing image">
+    <div class="feature-text p-4">
+      <h3 class="heading-subsection mb-5">Skills Testing</h3>
+      <p class="feature-text-paragraph">
+        We offer virtual skills testing for our Monitor Tech course. It is included for free for all purchases over $650. The
+        skills testing will be done remotely via Skype, Zoom or Facetime.
+        Skills testing is also available for other courses upon request. See our skills testing form.
+      </p>
+    </div>
+  </div>
+
+  <div class="d-flex feature-container mt-5">
+    
+    <div class="feature-text p-4">
+      <h3 class="heading-subsection mb-5">Skills Testing</h3>
+      <p class="feature-text-paragraph">
+        We offer virtual skills testing for our Monitor Tech course. It is included for free for all purchases over $650.
+        The
+        skills testing will be done remotely via Skype, Zoom or Facetime.
+        Skills testing is also available for other courses upon request. See our skills testing form.
+      </p>
+    </div>
+    <img class="ml-5" src="images/featuresImages/graduation 1.png" alt="skills testing image">
+  </div>
+</section>
 <!-- END features -->
 
 <!-- START courses -->

@@ -4,12 +4,14 @@
   --color-primary:#188469; /* use var(--color-primary); */
   --color-primary-darker: #144136;
   --color-bg: #ECF7F5;
+  --color-bg-darker: #dbf0ec;
+  --color-grey: #787878;
   
 
   /* Fonts */
   --default-font-size: 1.6rem;  /* use var(--default-font-size); */
-  --h1-font-size: 5rem;
-  --h2-font-size: 2.2rem;  /* "our courses" */
-  --h3-font-size: 2.0rem;  /* "arrhythmia interpretation" */
+  --h1-font-size: 4rem;
+  --h2-font-size: 3.8rem;  /* "our courses" */
+  --h3-font-size: 2.8rem;  /* "arrhythmia interpretation" */
   --h4-font-size: 1.85rem; /* "It can be taken by" */
 }
