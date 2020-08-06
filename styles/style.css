@@ -85,7 +85,15 @@ body {
 }
 .carousel-item {
   position: relative;
+  
 }
+/* .carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 520px;
+  
+} */
 .carousel-caption {
   position: absolute;
   top: 50%;
