@@ -58,7 +58,7 @@ body {
 #how-it-works,
 #about,
 #employers {
-  margin: 5rem 0;
+  margin: 5rem auto;
 }
 /*  ----------------------------------------  */
 /*  NAVIGATION BAR  */
@@ -83,6 +83,10 @@ body {
   font-size: 1.6rem;
   padding: 0.5rem 2rem !important;
   border-radius: 0;
+  font-weight: 500;
+}
+.btn-large {
+  padding: 1rem 3rem !important;
 }
 
 .btn-login:hover {
@@ -150,7 +154,7 @@ body {
 #courses {
 }
 .course-box {
-  width: 80%;
+  width: 90%;
   margin: 5rem auto;
   display: flex;
   background-color: var(--color-bg);
@@ -164,20 +168,21 @@ body {
 }
 .price-tag {
   font-size: 3rem;
-
-  padding: 1rem 3rem;
+  padding: 0 3rem;
   color: white;
   position: absolute;
-  top: 10px;
-  left: 5px;
+  top: 20px;
+  left: 0;
   overflow: hidden;
-  background-color: rgb(180, 25, 25);
+  background-color: #cf0023;
+  font-weight: 500;
 }
 .list-taken-by li {
   list-style-type: none;
   list-style-position: inside;
   text-indent: -1em;
   padding-left: 1em;
+  line-height: normal;
 }
 .list-taken-by li::before {
   content: "-";
@@ -188,17 +193,109 @@ body {
 }
 .list-checked {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 .list-checked li {
   list-style-image: url("../icons/check.png");
   list-style-position: inside;
-  margin: 1.5rem 4rem 0 0;
+  margin: 0 4rem 0 0;
 }
 .course-info {
   padding: 2rem 4rem;
 }
 .heading-taken {
   font-size: var(--h4-font-size);
+}
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15rem auto 5rem auto;
+  width: 90%;
+}
+
+.card-course {
+  max-width: 48rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.card-text {
+  text-align: justify;
+}
+.circle {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -8rem 0 0 0;
+}
+.card-image {
+  width: 9rem;
+}
+.card-course .heading-subsection::after {
+  display: none;
+}
+.card-course .heading-subsection {
+  margin: 5rem 0 3rem;
+}
+.card-course .price-tag {
+  padding: 0 1.5rem;
+}
+
+/*  ----------------------------------------  */
+/*  How it works */
+/*  -----------------------------------------  */
+.hiw-container {
+  background-color: var(--color-bg);
+}
+.hiw-box {
+  display: flex;
+  align-items: flex-start;
+
+  padding: 1.5rem 1.5rem 1.5rem 7rem;
+}
+.img-how-it-works {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+#how-it-works .heading-subsection::after {
+  display: none;
+}
+.partition {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1.2px;
+  background-color: var(--color-primary-lighter);
+  justify-self: flex-end;
+}
+.hiw-number {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-right: 2rem;
+  color: var(--color-primary-lighter);
+  line-height: 1.12;
+}
+.hiw-title-p, .img-how-it-works {
+  border-bottom: 1.5px solid var(--color-primary-lighter);
+  padding-bottom: 2rem;
+}
+.hiw-image {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  
 }
