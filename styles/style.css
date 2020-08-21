@@ -138,8 +138,10 @@ body {
 #features {
   background-color: var(--color-bg);
 }
+
 .feature-container {
   margin-bottom: 5.5rem;
+  align-items: center;
 }
 .feature-text {
   background-color: var(--color-bg-darker);
@@ -398,3 +400,30 @@ padding: 4rem 0;
   letter-spacing: 1px;
 }
 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1040px) {
+  #features img {
+    width: 160px;
+    height: 160px;
+  }
+  .heading-section {
+    font-size: 3.1rem;
+  }
+  #features h3 {
+    font-size: 2.6rem;
+  }
+  .course-image {
+    width: 30rem;
+  }
+  .heading-subsection {
+    font-size: 2.2rem;
+  }
+  .card-course {
+    max-width: 32rem;
+  }
+  .about-img {
+    max-width: 32rem;
+  }
+}
