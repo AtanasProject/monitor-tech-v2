@@ -85,6 +85,7 @@ body {
   border-radius: 0;
   font-weight: 500;
 }
+
 .btn-large {
   padding: 1rem 3rem !important;
 }
@@ -137,8 +138,10 @@ body {
 #features {
   background-color: var(--color-bg);
 }
+
 .feature-container {
   margin-bottom: 5.5rem;
+  align-items: center;
 }
 .feature-text {
   background-color: var(--color-bg-darker);
@@ -346,12 +349,12 @@ padding: 4rem 0;
   color: white;
   display: flex;
   align-items: center;
-  padding: 10rem;
+  padding: 5rem;
 }
 
 .footer-block {
   width: 30%;
-  margin: 10px;
+  margin: 0 40px;
 }
 
 .footer-logo {
@@ -371,8 +374,56 @@ padding: 4rem 0;
 }
 
 .footer-contact {
+  color: var(--color-primary-darker);
 }
-
+.footer-contact li {
+  display: flex;
+  align-items: flex-start;
+}
 .footer-links {
 }
 
+.footer-icons {
+  width: 30px;
+  margin-right: 1rem;
+}
+.footer ul li{
+  list-style-type: none;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+}
+.footer-links li a:hover {
+  color: var(--color-primary-darker);
+  letter-spacing: 1px;
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1040px) {
+  #features img {
+    width: 160px;
+    height: 160px;
+  }
+  .heading-section {
+    font-size: 3.1rem;
+  }
+  #features h3 {
+    font-size: 2.6rem;
+  }
+  .course-image {
+    width: 30rem;
+  }
+  .heading-subsection {
+    font-size: 2.2rem;
+  }
+  .card-course {
+    max-width: 32rem;
+  }
+  .about-img {
+    max-width: 32rem;
+  }
+}
