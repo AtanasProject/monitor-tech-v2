@@ -403,7 +403,8 @@ padding: 4rem 0;
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1040px) {
+
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
   #features img {
     width: 160px;
     height: 160px;
@@ -425,5 +426,33 @@ padding: 4rem 0;
   }
   .about-img {
     max-width: 32rem;
+  }
+  body {
+    font-size: 1.5rem;
+  } 
+  /* COURSES */
+  .course-box {
+    flex-direction: column;
+  }
+  .course-image{
+    display: none;
+    /* width: 100%;
+    height: 20rem;
+    background-image: url("../images/nurse-tablet.png");
+    background-repeat: no-repeat; */
+  }
+  .price-tag{
+    font-size: 2rem;
+    padding: 0 3rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    overflow: hidden;
+    background-color: #cf0023;
+    font-weight: 500;
+  }
+  .course-info{
+
   }
 }
