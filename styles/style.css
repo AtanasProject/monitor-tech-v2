@@ -118,7 +118,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 50rem;
+  width: 50rem;
 }
 
 .heading-carousel {
@@ -259,6 +259,11 @@ body {
 /*  ----------------------------------------  */
 /*  How it works */
 /*  -----------------------------------------  */
+
+#how-it-works{
+  width: 90%;
+  margin: 0 auto;
+}
 .hiw-container {
   background-color: var(--color-bg);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
@@ -309,7 +314,10 @@ body {
 /*  ----------------------------------------  */
 /*  About Us*/
 /*  -----------------------------------------  */
-
+#about{
+  width: 90%;
+  margin: 5rem auto;
+}
 #about .heading-section {
   text-align: left;
   margin: 0;
@@ -346,6 +354,9 @@ padding: 4rem 0;
 /*  -----------------------------------------  */
 .footer { 
   background-color: var(--color-primary-lighter);
+}
+.footer-container-lg{
+  
   color: white;
   display: flex;
   align-items: center;
@@ -354,7 +365,14 @@ padding: 4rem 0;
 
 .footer-block {
   width: 30%;
-  margin: 0 40px;
+  margin: 0 4rem;
+}
+
+.footer-block:first-child{
+  margin-left: 0;
+}
+.footer-block:last-child{
+  margin-right: 0;
 }
 
 .footer-logo {
@@ -381,6 +399,7 @@ padding: 4rem 0;
   align-items: flex-start;
 }
 .footer-links {
+  text-align: right;
 }
 
 .footer-icons {
@@ -402,9 +421,10 @@ padding: 4rem 0;
 
 
 
+
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) and (max-width: 1040px) {
+@media only screen and (max-width: 1040px) {
   #features img {
     width: 160px;
     height: 160px;
@@ -415,6 +435,9 @@ padding: 4rem 0;
   #features h3 {
     font-size: 2.6rem;
   }
+  #features h2 {
+    width: fit-content;
+  }
   .course-image {
     width: 30rem;
   }
@@ -423,6 +446,10 @@ padding: 4rem 0;
   }
   .card-course {
     max-width: 32rem;
+  }
+  #how-it-works{
+    width: 90%;
+    margin: 0 auto;
   }
   .about-img {
     max-width: 32rem;
@@ -435,11 +462,11 @@ padding: 4rem 0;
     flex-direction: column;
   }
   .course-image{
-    display: none;
-    /* width: 100%;
-    height: 20rem;
-    background-image: url("../images/nurse-tablet.png");
-    background-repeat: no-repeat; */
+    /* display: none; */
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+   
   }
   .price-tag{
     font-size: 2rem;
@@ -455,4 +482,90 @@ padding: 4rem 0;
   .course-info{
 
   }
+
+  .mx-5{
+    margin: 0 20px !important;
+  }
+
+  .partners-logo{
+    width: 10rem;
+  }
+
+  .footer-container-lg{
+    padding: 4rem 0 ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer-block:first-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .footer-block:first-child{
+    margin-left: 4rem;
+  }
+  .footer-block:last-child{
+    margin-right: 4rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 800px){
+  .cards-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-container .card-course:first-child{
+    margin-bottom: 12rem;
+  }
+  .cards-container{
+    width: 70%;
+  }
+  .cards-container .card-course{
+    max-width: 100%;
+  }
+
+  .about-box{
+    flex-direction: column-reverse;
+    /* align-items: center; */
+  }
+  .about-img{
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
+  .about-info{
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1600px){
+  #partners, 
+  #features,
+  #courses, 
+  #how-it-works, 
+  #about, 
+  .footer-container-lg{
+    width: 1400px;
+    margin-left:  auto;
+    margin-right:  auto;
+  }
+
+  /* #hero{
+    width: 100%;
+  } */
+  .footer-container-lg{
+    padding: 5rem 0;
+    justify-content: space-between;
+  }
+  
+  
+  
 }
