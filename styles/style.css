@@ -63,7 +63,9 @@ body {
 /*  ----------------------------------------  */
 /*  NAVIGATION BAR  */
 /*  ----------------------------------------  */
-
+#secondNav{
+  background-color: #fff;
+}
 .collapse ul .nav-item .nav-link,
 .collapse ul .nav-item .nav-link:visited,
 .collapse ul .nav-item .nav-link:active {
@@ -92,6 +94,10 @@ body {
 
 .btn-login:hover {
   background-color: var(--color-primary);
+}
+
+.nav-bar-logo{
+  height: 100%;
 }
 
 /*  ----------------------------------------  */
@@ -392,7 +398,8 @@ padding: 4rem 0;
 }
 
 .footer-contact {
-  color: var(--color-primary-darker);
+   color: #fff;
+   
 }
 .footer-contact li {
   display: flex;
@@ -530,6 +537,10 @@ padding: 4rem 0;
   }
   .cards-container .card-course{
     max-width: 100%;
+  }
+
+  .hiw-box{
+    padding-left: 2rem;
   }
 
   .about-box{
