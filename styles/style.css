@@ -577,6 +577,7 @@ padding: 4rem 0;
   }
   
 }
+/* TEST */
 @media screen and (max-width: 600px) {
   .carousel-caption {
     width: 90%;
