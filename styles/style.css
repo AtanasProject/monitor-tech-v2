@@ -63,7 +63,30 @@ body {
 /*  ----------------------------------------  */
 /*  NAVIGATION BAR  */
 /*  ----------------------------------------  */
-#secondNav{
+#navbarResponsive {
+  padding: 1rem;
+  width: 100vw;
+}
+
+#secondNav .container-fluid {
+  padding-left:0;
+  padding-right:0;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-toggler {
+  margin-right: 1.5rem;
+}
+
+.nav-bar-logo {
+ margin-left: 1.5rem;
+}
+
+#secondNav, #navbarResponsive {
   background-color: #fff;
 }
 .collapse ul .nav-item .nav-link,
@@ -136,6 +159,45 @@ body {
   color: #37f9c9;
   font-weight: 500;
   font-size: 2rem;
+}
+
+/*  ----------------------------------------  */
+/*  Partners */
+/*  -----------------------------------------  */
+
+#partners ul li{
+  position: relative;
+  display: inline-block;
+}
+#partners ul li .tooltiptext {
+  visibility: hidden;
+  width: 25rem;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#partners ul li .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+#partners ul li:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*  ----------------------------------------  */
@@ -501,7 +563,7 @@ padding: 4rem 0;
   }
 
   .partners-logo{
-    width: 10rem;
+    height: 10rem;
   }
 
   .footer-container-lg{
