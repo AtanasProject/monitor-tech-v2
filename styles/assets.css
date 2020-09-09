@@ -5,7 +5,12 @@
   --color-primary-darker: #144136;
   --color-bg: #ECF7F5;
   --color-bg-darker: #dbf0ec;
-  --color-grey: #787878;
+  --color-grey: #4D4D4D;
+    /* old colour grey didn't pass contrast checker --color-grey: #787878; */
+    /* https://webaim.org/resources/contrastchecker/ */
+
+  
+
   
 
   /* Fonts */
