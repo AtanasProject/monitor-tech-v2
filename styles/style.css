@@ -61,6 +61,17 @@ body {
 #employers {
   margin: 5rem auto;
 }
+
+a, a:link, a:visited {
+  color: var(--color-primary-lighter);
+  font-weight: 500;
+}
+a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+
 /*  ----------------------------------------  */
 /*  NAVIGATION BAR  */
 /*  ----------------------------------------  */
@@ -242,6 +253,7 @@ body {
 .course-image {
   width: 40rem;
   object-fit: cover;
+  flex-shrink: 0;
 }
 .price-tag {
   font-size: 3rem;
@@ -327,6 +339,10 @@ body {
 }
 .card-course .price-tag {
   padding: 0 1.5rem;
+}
+
+#courses .btn-login {
+  margin-top: auto;
 }
 
 /*  ----------------------------------------  */
