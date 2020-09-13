@@ -2,6 +2,24 @@ window.onscroll = function () {
     scrollFunction();
 };
 
+const navBarCollapse = document.querySelector('.navbar-collapse');
+const navBarToggler = document.querySelector('.navbar-toggler');
+
+const link = document.querySelector('.nav-link');
+const partners = document.querySelector('#partners');
+
+link.addEventListener('click', () => {
+    window.scrollTo({
+        top: 550
+    });
+    
+})
+
+navBarCollapse.addEventListener('click', ()=> {
+    navBarCollapse.classList.remove("show");
+    navBarToggler.classList.add('collapsed');
+})
+
 function scrollFunction() {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
         document.getElementById("secondNav").style.height = "60px";

@@ -55,11 +55,12 @@ body {
   left: 50%;
   transform: translate(-50%);
 }
-#courses,
-#how-it-works,
-#about,
-#employers {
+  #features,
+  #courses,
+  #how-it-works,
+  #about {
   margin: 5rem auto;
+  padding-top: 6rem;
 }
 
 a,
@@ -110,6 +111,7 @@ a:hover {
   font-size: 1.8rem;
   font-weight: 500;
   margin: 0 2rem;
+  cursor: pointer;
 }
 
 .collapse ul .nav-item .nav-link:hover {
