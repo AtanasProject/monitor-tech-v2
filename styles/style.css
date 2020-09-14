@@ -181,6 +181,10 @@ a:hover {
 /*  Partners */
 /*  -----------------------------------------  */
 
+.partners-logo {
+  height: 10rem;
+}
+
 #partners ul li {
   position: relative;
   display: inline-block;
@@ -195,13 +199,13 @@ a:hover {
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 100%;
+  bottom: -100%; /* was 100%*/
   left: 0%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
 }
-#partners ul li .tooltiptext::after {
+/* #partners ul li .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -210,7 +214,7 @@ a:hover {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
-}
+} */
 #partners ul li:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
