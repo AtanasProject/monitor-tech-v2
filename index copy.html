@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <title>Monitortech | Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- -->
+  </head>
+
+  <body>
+    <!-- START nav -->
+    
+    <nav id="secondNav" class="container-fluid navbar navbar-expand-lg py-3 navbar-light sticky-top">
+      <div class="container-fluid">
+        <a class="nav-brand" href="#"><img class="nav-bar-logo" src="./images/monitor-tech-logo.svg" alt="logo"/></a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a name='#jumpHere'  class="nav-link"   >Partners</a>
+            </li>
+            <li class="nav-item">
+              <a href="#features" class="nav-link"  >Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link"  >Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#how-it-works" class="nav-link" >How it works</a>
+            </li>
+            <li class="nav-item " >
+              <a href="#about" class="nav-link" >About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-login"  href="https://lms.pacificmedicaltraining.com/login/?_ga=2.43255717.1241386720.1600008871-763547238.1594559916" target="_self">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END nav -->
+
+    <!-- START hero -->
+    <section id="hero" class="container-fluid">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+
+        <div
+          class="carousel-inner"
+          role="listbox"
+          style="width: 100%; height: 520px !important;"
+        >
+          <div class="carousel-item active">
+            <img
+              src="images/carousel/nurse-5.jpg"
+              class="image-carousel d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1 class="heading-carousel my-3">12-Lead ECG</h1>
+              <p class="subheading my-4">
+                Make Your Resume Stand Out with a 12-Lead ECG Certification
+              </p>
+              <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+                <input name="courses[1][course_id]" type="hidden" value="22">
+                <input name="courses[1][quantity]" type="hidden" value="1">
+                <input name="source_website" type="hidden" value="monitortech.org-v2">
+                <button class="btn btn-login btn-large my-5">ENROLL NOW</button>
+              </form>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel/doctor-1.jpg"
+              class="image-carousel d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1 class="heading-carousel my-3">Arrhythmia Interpretation</h1>
+              <p class="subheading my-4">
+                Accredited by the Intersocietal Accreditation Commission (IAC) and offers up to 8 CME/CE credits
+              </p>
+              <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+                <input name="courses[0][course_id]" type="hidden" value="21">
+                <input name="courses[0][quantity]" type="hidden" value="1">
+                <input name="source_website" type="hidden" value="monitortech.org-v2">
+                <button class="btn btn-login btn-large my-5">ENROLL NOW</button>
+              </form>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel/holter-1.jpg"
+              class="image-carousel d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1 class="heading-carousel my-3">Stress Test and Holter Monitor</h1>
+              <p class="subheading my-4">
+                This course can also be used to prepare for the CCI-CCT Exam
+              </p>
+              <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+                <input name="courses[3][course_id]" type="hidden" value="28">
+                <input name="courses[3][quantity]" type="hidden" value="1">
+                <input name="source_website" type="hidden" value="monitortech.org-v2">
+                <button class="btn btn-login btn-large my-5">ENROLL NOW</button>
+              </form>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carousel/nurse-1.jpg"
+              class="image-carousel d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h1 class="heading-carousel my-3">CPR and First Aid</h1>
+              <p class="subheading my-4">
+                Fully accredited
+              </p>
+              <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+                <input name="courses[2][course_id]" type="hidden" value="25">
+                <input name="courses[2][quantity]" type="hidden" value="1">
+                <input name="source_website" type="hidden" value="monitortech.org-v2">
+                <button class="btn btn-login btn-large my-5">ENROLL NOW</button>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- END hero -->
+
+<!-- START Partners -->
+<section id="partners" class=""> 
+  <ul
+   class="d-flex flex-row justify-content-center flex-wrap align-items-center my-5 list-unstyled">
+   <li class="mx-5">
+     <span class="tooltiptext">
+       Pacific Medical Training is awarded a Total Small Business set aside by the Department of the Army.</span>
+    <img class='partners-logo' src="images/partnersLogo/logo-us-dept-army.svg" alt="The Department of the Army Logo" />
+   </li>
+ </ul>
+</section>
+<!-- END Partners -->
+
+    <!-- START features -->
+    <section id="features" class="container-fluid ">
+      <h2 class="text-center mb-5 heading-section">
+        Why we should be your first choice?
+      </h2>
+      <div class="d-flex feature-container">
+        <img
+          class="feature-img"
+          src="images/featuresImages/competence.jpg"
+          alt="skills testing image"
+        />
+        <div class="feature-text">
+          <h3 class="heading-subsection">Skills Testing</h3>
+          <p class="feature-text-paragraph">
+            We offer virtual skills testing for our Monitor Tech course. It is
+            included for free for all purchases over $650. The skills testing
+            will be done remotely via Skype, Zoom or Facetime. Skills testing is
+            also available for other courses upon request. See our skills
+            testing form.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex feature-container">
+        <div class="feature-text">
+          <h3 class="heading-subsection">Accreditation and CME</h3>
+          <p class="feature-text-paragraph">
+            Show employers that you have taken nationally accredited courses. They are going to want to know.
+            <br><br>
+            Our courses can be used to satisfy the Intersocietal Accreditation Commission (IAC) accreditation requirements.
+            <br><br>
+            Our courses offer up to 8 CME/CE credits per course and are certified by Postgraduate Institute for Medicine for up to 8 CME credits from the American Medical Association (AMA). AMA credit is compatible with IAC requirements.
+            <br><br>
+            The Postgraduate Institute for Medicine has also certified our course for up to 8 CME credits from the American Nurses Credentialing Center (ANCC).
+            <br><br>
+            Please view our <a href="https://www.monitortech.org/assets/pmt-pim-accreditation-letter-good-through-2021-06-01.pdf" target="_blank">accreditation letter</a>.
+            </p>
+          </p>
+        </div>
+        <img
+          class="feature-img"
+          src="images/featuresImages/graduation.jpg"
+          alt="skills testing image"
+        />
+      </div>
+    </section>
+    <!-- END features -->
+
+    <!-- START courses -->
+    <section id="courses">
+      <h2 class="heading-section heading-line">Our Courses</h2>
+      <div class="course-box">
+        <img class="course-image" src="images/carousel/doctor-1.jpg" alt="" />
+        <!-- <div class="course-image"> -->
+        <p class="price-tag">$300</p>
+        <!-- </div> -->
+        <div class="course-info">
+          <h3 class="heading-subsection">Arrhythmia Interpretation</h3>
+          <p>
+            By the end of the course, you will be able to understand the rhythms and arrhythmias of the heart and recognize them on
+            a printed rhythm strip. For more details, <a href="https://www.monitortech.org/assets/syllabus-arrhythmia.pdf" target="_blank"> read our course syllabus</a>. You can present this to your credentialing
+            department to confirm this will be eligible for reimbursement.
+          </p>
+          <h4 class="heading-taken ">This course can be taken by:</h4>
+          <ul class="list-taken-by">
+            <li>Entry-level job seekers</li>
+            <li>
+              Any nurse assistant, RN, LVN/LPN, or other medical professional
+              seeking additional training or continuing education.
+            </li>
+            <li>It may be taken for required monitor technician training.</li>
+          </ul>
+          <p>
+            Provides certification to students who pass an end of course exam with a score of 84%.
+          </p>
+          <ul class="list-checked">
+            <li>4–6 weeks</li>
+            <li>Completed online</li>
+            <li>Fully accredited</li>
+            <li>Offers up to 8 CME/CE credits</li>
+          </ul>
+          <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+            <input name="courses[0][course_id]" type="hidden" value="21">
+            <input name="courses[0][quantity]" type="hidden" value="1">
+            <input name="source_website" type="hidden" value="monitortech.org-v2">
+            <button class="btn btn-login btn-large my-3">BEGIN COURSE</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="course-box">
+        <img class="course-image" src="images/carousel/nurse-5.jpg" alt="" />
+        <p class="price-tag">$300</p>
+        <div class="course-info">
+          <h3 class="heading-subsection">12-lead Electrocardiography</h3>
+          <p>
+            You will learn how to operate and configure the machine that takes
+            twelve-lead measurements. For more details, <a href="https://www.monitortech.org/assets/syllabus-12lead.pdf" target="_blank"> read our course syllabus</a>. You can present this to your credentialling department to
+            confirm this will be elligible for reimbursement.
+          </p>
+          <h4 class="heading-taken ">It can be taken by:</h4>
+          <ul class="list-taken-by">
+            <li>Those who passed an Arrhythmia Interpretation course.</li>
+            <li>Entry-level job seekers</li>
+            <li>
+              Any nurse assistant, RN, LVN/LPN, or other medical professional
+              seeking additional training or continuing education.
+            </li>
+            <li>It may be taken for required monitor technician training.</li>
+          </ul>
+          <p>
+            Provides certification to students who pass an end of course exam with a score of 84%.
+          </p>
+          <ul class="list-checked">
+            <li>4–6 weeks</li>
+            <li>Completed online</li>
+            <li>Fully accredited</li>
+            <li>Offers up to 8 CME/CE credits</li>
+          </ul>
+          <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+            <input name="courses[1][course_id]" type="hidden" value="22">
+            <input name="courses[1][quantity]" type="hidden" value="1">
+            <input name="source_website" type="hidden" value="monitortech.org-v2">
+            <button class="btn btn-login btn-large my-3">BEGIN COURSE</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="cards-container">
+        <div class="card-course">
+          <div class="circle">
+            <img class="card-image" src="./images/rsz_machine-2.jpg" alt="">
+          </div>
+          <p class="price-tag">$800</p>
+          <h3 class="heading-subsection">Stress Test and Holter Monitor Training and Certification</h3>
+          <p class="card-text">
+            This course not only reviews content covered in our Arrhythmia Interpretation and 12-lead ECG, but it also covers stress
+            testing and Holter and event monitoring. This course can also be used to prepare for the <a target="_blank" href="https://www.monitortech.org/cct/cct.html">CCI-CCT Exam</a>. 
+            <a target="_blank" href="https://www.monitortech.org/assets/stress-test-course-syllabus.pdf">Learn more about the course</a> or sign up now and get <b>ECG training online</b>.<br><br>
+            <b>Disclaimer:</b> We do not cover Registering Patients (5%), Educating Clients (8%) or Administering Cardiac Test (10%)
+            sections for <a target="_blank" href="https://www.monitortech.org/cct/cct.html">CCT</a>/<a target="_blank" href="https://www.monitortech.org/crat/index.html">CRAT</a> exam.
+          </p>
+          <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+            <input name="courses[3][course_id]" type="hidden" value="28">
+            <input name="courses[3][quantity]" type="hidden" value="1">
+            <input name="source_website" type="hidden" value="monitortech.org-v2">
+            <button class="btn btn-login btn-large">BEGIN COURSE</button>
+          </form>
+        </div>
+        <div class="card-course">
+          <div class="circle">
+            <img class="card-image" src="./images/cpr-1.jpg" alt="">
+          </div>
+          <p class="price-tag">$50</p>
+          <h3 class="heading-subsection">CPR and First Aid</h3>
+          <p class="card-text">
+          Our Pacific Medical Training branded CPR training materials have been sold under <a target="_blank" href="https://pacificmedicaltraining.com/2018/09/25/department-of-the-army-awards-unprecedented-cpr-contract.html">contract to the U.S. Army</a>.
+          </p>
+          <p class="card-text">
+          Our <a target="_blank" href="https://www.monitortech.org/assets/syllabus-bls.pdf">CPR and First Aid</a> course can be added to any purchase from our shopping cart. You may also buy it individually.
+          </p>
+          <p class="card-text">
+          Check out our <a target="_blank" href="https://pacificmedicaltraining.com/education.html">other courses list</a>.
+          </p>
+          <form action="https://lms.pacificmedicaltraining.com/my-shopping-cart-step-1/" method="post">
+            <input name="courses[2][course_id]" type="hidden" value="25">
+            <input name="courses[2][quantity]" type="hidden" value="1">
+            <input name="source_website" type="hidden" value="monitortech.org-v2">
+            <button class="btn btn-login btn-large">BEGIN COURSE</button>
+          </form>
+
+      </div>
+    </section>
+    <!-- END courses -->
+
+    <!-- START how-it-works -->
+    <section id="how-it-works" class="">
+      <h2 class="heading-section heading-line">How it works</h2>
+      
+      <div class="hiw-container">
+        <div class="hiw-box">
+          <p class="hiw-number">1.</p>
+          <div class="hiw-info border-line">
+            <div class="hiw-title-p">
+              <h3 class="heading-subsection">Sign Up</h3>
+              <p>
+                Sign up anytime for our online course. Scroll to the <a href="https://www.monitortech.org/#enrollment" target="_blank"> enrollment section to begin</a>. <br><br>
+                
+                You may buy our Arrhythmia Interpretation courses separately or as a package. Each course is sold individually for $300.
+                When you buy them as a package, you will receive 10% off your purchase for a total of $540.<br><br>
+                
+                A word about safety: If you're going to buy something online, it needs to be secure. Your purchase is secure with
+                256-bit encryption.
+              </p>
+            </div>
+            <div class="img-how-it-works">
+              <img class=" hiw-image " src="images/sign-up.jpg" alt="skills testing image" />
+            </div>
+          </div>
+        </div>
+        <div class="hiw-box">
+          <p class="hiw-number">2.</p>
+          <div class="hiw-info border-line">
+            <div class="hiw-title-p">
+              <h3 class="heading-subsection">Study</h3>
+              <p>
+                All of the materials you need are available upon enrollment in our courses. <br><br>
+              </p>
+            </div>
+            <div class="img-how-it-works">
+              <img class="hiw-image " src="images/study.jpg" alt="skills testing image" />
+            </div>
+          </div>
+        </div>
+        <div class="hiw-box">
+          <p class="hiw-number">3.</p>
+          <div class="hiw-info border-line">
+            <div class="hiw-title-p">
+              <h3 class="heading-subsection">The Exam</h3>
+              <p>
+                There is an end of course exam where you must pass with an 84% or higher. You have three chances to pass and we provide
+                you with an exam scoring report after each attempt. Should you fail the exam during your first or second attempt, you
+                can use the scoring report for remediation.
+              </p>
+            </div>
+            <div class="img-how-it-works">
+              <img class=" hiw-image " src="images/exam.jpg" alt="skills testing image" />
+            </div>
+          </div>
+        </div>
+        <div class="hiw-box">
+          <p class="hiw-number">4.</p>
+          <div class="hiw-info">
+            <div class="hiw-title-p">
+              <h3 class="heading-subsection">Your Certificate</h3>
+              <p>
+                You will be provided with a PDF certificate via email that you can show your employer while the hard copy is mailed to
+                you. We mail the hard-copy via First Class Mail one business day after you pass the exam.
+              </p>
+            </div>
+            <div class="img-how-it-works">
+              <img class=" hiw-image " src="images/certificate.jpg" alt="A certificate image" />
+            </div>
+          </div>
+        </div>
+        <!-- <span class="partition"></span> -->
+      </div>
+      
+    </section>
+    <!-- END how-it-works -->
+
+    <!-- START about -->
+    <section id="about" class="">
+      <h2 class="heading-section heading-line">About Us</h2>
+      <div class="about-box">
+        <div class="about-info">
+          <h4 class="heading-about">Our Brand</h4>
+          <p>Monitortech.org is a Pacific Medical Training brand. <a href="https://pacificmedicaltraining.com/" target="blank">Pacific Medical Training</a> has been in business since 2007.</p>
+          <h4 class="heading-about">What people are saying</h4>
+          <p>I work with Zywie Healthcare. We are a remote monitoring facility located in Johns Creek, GA. Founded in 2014. We record and transmit EKGs through Holter, event, & mobile cardiac telemetry monitors. We recently hired someone who has taken your monitor tech course and recommended it to us for training purposes. This tech scored the highest on our internal entrance exam. We may be interested in referring applicants to your program, in lieu of our own. R. Herrington, Device Technician, CCT, Zywie, Inc.</p>
+        </div>
+        <img class="about-img" src="images/about-us.jpg">
+      </div>
+    </section>
+    <!-- END about -->
+
+    <!-- START employers -->
+    <section id="employers" class="container"></section>
+    <!-- END employers -->
+
+    <!-- START reviews -->
+    <section id="reviews" class="container"></section>
+    <!-- END reviews -->
+
+    <!-- START footer -->
+    <footer class="footer container-fluid">
+      <div class="footer-container-lg">
+        <div class="footer-copyright footer-block">
+          <div class="footer-logo">
+            <img src="./images/monitor-tech-logo-footer.svg" alt="logo"/>
+            <!-- <h2 class="company-name">Monitortech</h2> -->
+          </div>
+          <p>Copyright © 2020 Pacific Medical Training</p>
+        </div>
+
+        <ul class="footer-contact footer-block">
+          <li>
+            <img src="icons/pin.svg" class="footer-icons" alt="address">
+            <p>
+              Pacific Medical Training<br>
+              3103 Philmont Ave, Suite 308
+              Huntingdon Valley, PA 19006
+            </p>
+          </li>
+        
+          <li>
+            <img src="icons/phone.svg" class="footer-icons" alt="phone number">
+            <p>
+              1-844-481-5238<br>
+              Phone hours are daily, 8am–2pm Eastern Time.
+            </p>
+          </li>
+          <li>
+            <img src="icons/email.svg" class="footer-icons" alt="email">
+            <p>
+              support@pacificmedicaltraining.com
+            </p>
+          </li>
+        </ul>
+        
+        <ul class="footer-links footer-block">
+          <li><a href="https://www.monitortech.org/ecg-of-the-day.html" target="_blank">ECG of the Day</a></li>
+          <li><a href="https://www.monitortech.org/articles.html" target="_blank">Education Articles</a></li>
+          <li><a href="https://pacificmedicaltraining.com/" target="_blank">Corporate</a></li>
+          <li><a href="https://pacificmedicaltraining.net/" target="_blank">Scholarships</a></li>
+          <li><a href="https://www.monitortech.org/rhythm-strip-practice.html" target="_blank">Practice reading Rhythm Strips</a></li>
+          <li><a href="https://www.monitortech.org/faq.html" target="_blank">FAQ</a></li>
+          <li><a href="https://www.monitortech.org/stress-test-holter-monitor.html" target="_blank">Stress Test Holter Monitor</a></li>
+          <li><a href="https://www.monitortech.org/crat/index.html" target="_blank">CRAT Test Topics</a></li>
+        </ul>
+
+    </div>
+
+    </footer>
+    <!-- END footer -->
+
+
+    <!-- Made by TEAM CONTACT DETAILS -->
+    <!-- 
+      Denis Peptanariu - Front-end Developer - denispeptanariu@gmail.com - Github: Denis-Andrei
+      Jacques Vertommen - Full-stack Software Engineer Client Lead  - jacquesvertommen@gmail.com - Github: jamesdiop 
+      Hadiyah Lawal - Full-stack Software Engineer - hadiyahlaw@gmail.com - Github: hadiyahl
+      Omolola Bello - Full-stack Software Engineer
+      Atanas Kozarev - Consultant - kozarev@googlemail.com - linkedin.com/in/kozarev - GitHub: ultraasi-atanas
+    -->
+    <!-- END TEAM CONTACT DETAILS -->
+
+
+
+
+    <!-- old code STARTs here -->
+
+    <!--BOOTSTRAP JS & JQUERY-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <!-- <script src="scripts/navSecondScript.js"></script> -->
+  </body>
+</html>
